@@ -2,11 +2,14 @@ This is a simple password generator CLI tool I made out of curiosity over how No
 
 In order to use this on your local system:
 
-1. Install package : ```bash npm install -g password-gen-custom
+1. Install package :
+2.                   npm install -g password-gen-custom
 
-2. Run command ```bash password-generator geneerate -l (specify length) -u -n -s
+3. Run command 
+4.                password-generator generate -l <length> -u -n -s
 
-3. The -l flag is to specify the length of your password, set to default value 12.
-   The -u flag is to include upper case characters in your password.
-   -n flag is to include intergers in your password.
-   -s flag is to include special characters in your passwords.
+5. Options
+- -l <length>: Specify the length of your password (default is 12 characters).
+- -u: Include uppercase letters in your password.
+- -n: Include numbers in your password.
+- -s: Include special characters in your password.
